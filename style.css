@@ -1,14 +1,20 @@
+*{
+    line-height: 18px;
+}
+
+html{
+    font-size: 16px;
+}
+
 body{
     background-color: black;
+    overflow: scroll
 }
 
 a:link{
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-}
-.btn-menu{
-    top: 3rem;
 }
 
 .js-menu {
@@ -24,8 +30,8 @@ a:link{
     max-height: 28rem;
 }
 
-.margin-top1{
-    margin: 3rem 0 1rem;
+.margin-bot{
+margin-bottom: 0.5rem;
 }
 
 .search{
@@ -71,10 +77,10 @@ a:hover{
 }
 
 .button-order{
-    padding: 0 2rem 0 2rem;
+    padding: 2rem 2rem 0 2rem;
 }
 
 .nav-list{
-    padding:  0 2rem 0 2rem;
+    padding:  0 2rem 1rem 2rem;
 }
 
