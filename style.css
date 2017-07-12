@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+
+a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-menu{
+    top: 3rem;
+}
+
+.js-menu {
+    transition: all .4s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    background-color: white;  
+    width: 100%;
+    position: absolute;
+}
+
+.js-menu.open {
+    max-height: 28rem;
+}
+
+.margin-top1{
+    margin: 3rem 0 1rem;
+}
+
+.search{
+    padding-top: 1rem;
+}
+
+.white{
+    color: white; 
+}
+
+.hideall{
+    display: none;
+}
+
+.giohang{
+    line-height: 3; 
+}
+
+.link{
+    color: #999;
+}
+
+.lh-inherit{
+    line-height: inherit;
+}
+
+a:hover{
+    color: #222;
+}
+
+.km{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #dd3333;
+    color: white;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.menu{
+    border-right: 1px solid #ddd;
+}
+
+.button-order{
+    padding: 0 2rem 0 2rem;
+}
+
+.nav-list{
+    padding:  0 2rem 0 2rem;
+}
+
